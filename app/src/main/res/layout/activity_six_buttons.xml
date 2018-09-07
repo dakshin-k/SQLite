@@ -10,12 +10,12 @@
        <Button
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:text="Display All Crops"
+           android:text="Seed Rate"
            android:onClick="displayAllCrops"/>
        <Button
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:text="Display all districts"
+           android:text="Display districts"
            android:onClick="displayAllDistricts"/>
    </LinearLayout>
     <LinearLayout
@@ -25,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Crops in Districts"
+        android:text="Display Crops"
         android:onClick="cropsInDistricts"/>
     <Button
         android:layout_width="wrap_content"
