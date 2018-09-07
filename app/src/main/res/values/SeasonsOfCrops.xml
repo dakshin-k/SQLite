@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Maize">
+        <item>Sowing = Decemeber - January </item>
+        <item>Harvesting = June - July</item>
+    </array>
+    <array name="Paddy">
+        <item>Sowing = June - July </item>
+        <item>Harvesting = November - December </item>
+    </array>
+    <array name="Chillies">
+        <item>Sowing = Septemeber - October  </item>
+        <item>Harvesting = December - January </item>
+    </array>
+    <array name="Banana">
+        <item>Sowing = November - Decemeber  </item>
+        <item>Harvesting = December - March</item>
+    </array>
+    <array name="TotalPulses">
+        <item>Sowing = May - August </item>
+        <item>Harvesting = Spetemeber - Decemeber</item>
+    </array>
+    <array name="Cotton">
+        <item>Sowing = April - May </item>
+        <item>Harvesting = Decemeber - January </item>
+    </array>
+    <array name="SugarCane">
+        <item>Sowing = Febravary - March  </item>
+        <item>Harvesting = Decemeber - March </item>
+    </array>
+    <array name="Cholam">
+        <item>Sowing = Spetember to October </item>
+        <item>Harvesting = June -July</item>
+    </array>
+    <array name="GroundNut">
+        <item>Sowing = June -July </item>
+        <item>Harvesting = November - December </item>
+    </array>
+</resources>
