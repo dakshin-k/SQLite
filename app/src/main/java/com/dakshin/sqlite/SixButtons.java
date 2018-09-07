@@ -17,4 +17,8 @@ public class SixButtons extends AppCompatActivity {
         Intent intent=new Intent(SixButtons.this,DisplayAllDistricts.class);
         startActivity(intent);
     }
+    public void displayAllCrops(View v) {
+        Intent intent=new Intent(SixButtons.this,DisplayAllCrops.class);
+        startActivity(intent);
+    }
 }
