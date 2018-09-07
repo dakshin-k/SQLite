@@ -1,0 +1,108 @@
+<resources>
+	<array name="Tirunelveli_crops">
+		<item>Paddy</item>
+		<item>Cumbu</item>
+		<item>Ragi</item>
+		<item>Pulses</item>
+		<item>Groundnut</item>
+		<item>Gingelly</item>
+		<item>Coconut</item>
+		<item>Indigo</item>
+	</array>
+	<array name="Kanchipuram_crops">
+		<item></item>
+		<item>Mango</item>
+		<item>Brinjal</item>
+		<item>Greens</item>
+		<item>Banana</item>
+		<item>Water Melon</item>
+		<item>Gourds</item>
+		<item>Chillies</item>
+	</array>
+	
+	<array name="Tanjore_Crops">
+		<item>Paddy</item>
+		<item>BlackGram</item>
+		<item>Banana</item>
+		<item>Ragi</item>
+		<item>Gingelly</item>
+		<item>Red Gram</item>
+		<item>Green Gram</item>
+		<item>Maize</item>
+		<item>Sugar Cane</item>
+	</array>
+	
+	<array name="Sivagangai_Crops">
+		<item>Bhendi</item>
+		<item>Tomato</item>
+		<item>Sapota</item>
+		<item>Tapioca</item>
+		<item>Chillies</item>
+		<item>Coriander</item>
+		<item>Cashew</item>
+		<item>Jasmine</item>
+		<item>Brinjal</item>
+	</array>
+	
+	<array name="Kanykuamari_Crops">
+		<item>Bean</item>
+		<item>Bajra</item>
+		<item>Ragi</item>
+		<item>Tapioca</item>
+		<item>Banana</item>
+		<item>Coconut</item>
+		<item>Pulses</item>
+		<item>Cotton</item>
+		<item>Gingili</item>
+	</array>
+	
+	<array name="Trichy_Crops">
+		<item>Mango</item>
+		<item>Banana</item>
+		<item>Guava</item>
+		<item>Onion</item>
+		<item>Brinjal</item>
+		<item>Tamarind</item>
+		<item>Tomato</item>
+		<item>Chillies</item>
+		<item>Turmeric</item>
+	</array>
+	
+	<array name="Salem_Crops">
+		<item>Paddy</item>
+		<item>Tapioca</item>
+		<item>Pineapples</item>
+		<item>Mangoes</item>
+		<item>Citrus Fruits</item>
+		<item>Brinjal</item>
+		<item>Sugar Cane</item>
+		<item>Groundnut</item>
+		<item>Cotton</item>
+	</array>
+	
+	<array name="Madurai_Crops">
+		<item>Cotton</item>
+		<item>Banana</item>
+		<item>Coriander</item>
+		<item>Chillies</item>
+		<item>Onion</item>
+		<item>Paddy</item>
+		<item>Cumbu</item>
+		<item>Green Gram</item>
+		<item>Maize</item>
+	</array>
+	
+	<array name="Coimbatore_Crops">
+		<item>Millets</item>
+		<item>Corn</item>
+	</array>
+	
+	<array name="Vellore_Crops">
+		<item>Paddy </item>
+		<item>Groundnut</item>
+		<item>Sugar Cane</item>
+		<item>Banana</item>
+		<item>Coconut</item>
+		<item>Mango</item>
+	</array>
+</resources>
