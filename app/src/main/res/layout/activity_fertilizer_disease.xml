@@ -16,9 +16,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
+        android:visibility="invisible"
         android:text="Disease Cure:"/>
-    <TextView
-        android:layout_width="match_parent"
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/disease_cure_tview"/>
+        android:text="Click Here"
+        android:visibility="invisible"
+        android:id="@+id/button_open_disease_url"/>
 </LinearLayout>

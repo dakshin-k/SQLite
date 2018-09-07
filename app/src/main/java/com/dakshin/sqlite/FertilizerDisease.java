@@ -1,11 +1,15 @@
 package com.dakshin.sqlite;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class FertilizerDisease extends AppCompatActivity {
 
@@ -26,7 +30,7 @@ public class FertilizerDisease extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if(i!=0)
-                    populateDiseaseSpinner(tempcrops[i]);
+                    populateDiseaseSpinner(tempcrops[i],i);
             }
 
             @Override
@@ -36,7 +40,7 @@ public class FertilizerDisease extends AppCompatActivity {
         });
     }
 
-    private void populateDiseaseSpinner(String tempcrop) {
+    private void populateDiseaseSpinner(String tempcrop,final int i) {
         String[] diseases;
         switch(tempcrop)
         {
@@ -67,5 +71,18 @@ public class FertilizerDisease extends AppCompatActivity {
         Spinner diseaseSpinner=findViewById(R.id.select_disease_spinner);
         ArrayAdapter<String>diseaseAdapter=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,diseases);
         diseaseSpinner.setAdapter(diseaseAdapter);
+        TextView view=findViewById(R.id.disease_cure_header);
+        view.setVisibility(TextView.VISIBLE);
+        Button button=findViewById(R.id.button_open_disease_url);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               String url=getResources().getStringArray(R.array.disease_links)[i];
+               Intent intent=new Intent(Intent.ACTION_VIEW);
+               intent.setData(Uri.parse(url));
+               startActivity(intent);
+            }
+        });
+        button.setVisibility(Button.VISIBLE);
     }
 }

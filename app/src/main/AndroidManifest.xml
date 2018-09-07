@@ -31,7 +31,8 @@
         <activity android:name=".CropsinDistricts" />
         <activity android:name=".SoilTypeActivity" />
         <activity android:name=".Soildetails" />
-        <activity android:name=".FertilizerDisease"></activity>
+        <activity android:name=".FertilizerDisease"/>
+        <activity android:name=".button6"/>
     </application>
 
 </manifest>

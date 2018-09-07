@@ -10,4 +10,14 @@
         <item>Chillies</item>
         <item>Banana</item>
     </array>
+    <array name="disease_links">
+        <item>dummy</item>
+        <item>http://agropedia.iitk.ac.in/content/pest-and-disease-paddy</item>
+        <item>http://www.krishisewa.com/disease-management/288-dmaize.html</item>
+        <item>http://www.ikisan.in/ap-sugarcane-disease-management.html</item>
+        <item>https://plantdiseasehandbook.tamu.edu/problems-treatments/problems-affecting-multiple-crops/cotton-root-rot/</item>
+        <item>http://www.krishisewa.com/disease-management/312-groundnut-dm.html</item>
+        <item>https://www.worldofchillies.com/growing_chillies/chilli_pests_problems_diseases/chilli_problems/chilliproblems.html</item>
+        <item>http://agropedia.iitk.ac.in/content/banana-diseases-their-control</item>
+    </array>
 </resources>

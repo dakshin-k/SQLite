@@ -45,7 +45,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button 6"
-        android:onClick="Button6"/>
+        android:text="Season for Crops"
+        android:onClick="SeasonForCrops"/>
     </LinearLayout>
 </LinearLayout>
