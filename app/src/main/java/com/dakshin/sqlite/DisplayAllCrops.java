@@ -22,15 +22,19 @@ public class DisplayAllCrops extends AppCompatActivity {
         final String[] crops=getResources().getStringArray(R.array.crop_names);
         ArrayAdapter<String> districtAdapter=new ArrayAdapter<>(this,android.R.layout.simple_spinner_dropdown_item,districts);
         ArrayAdapter<String> cropsAdapter=new ArrayAdapter<>(this,android.R.layout.simple_spinner_dropdown_item,crops);
-        districtSpinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        districtSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if(i==0)
                     return;
                 populateThirdSpinner(districts[i]);
             }
-        });
 
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
         districtSpinner.setAdapter(districtAdapter);
         cropSpinner.setAdapter(cropsAdapter);
 

@@ -21,4 +21,8 @@ public class SixButtons extends AppCompatActivity {
         Intent intent=new Intent(SixButtons.this,DisplayAllCrops.class);
         startActivity(intent);
     }
+    public void cropsInDistricts(View v) {
+        Intent intent=new Intent(SixButtons.this,CropsinDistricts.class);
+        startActivity(intent);
+    }
 }

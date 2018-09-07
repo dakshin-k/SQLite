@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="paddyplaces">
+        <item>Thirunelveli</item>
+        <item>Sivagangai</item>
+        <item>Kanyakumari</item>
+    </array>
+    <array name="maizelist">
+        <item>Salem</item>
+        <item>Madurai </item>
+        <item>Coimbatore </item>
+        <item>Thirunelveli </item>
+        <item>Vellore </item>
+        <item>Tiruchirapalli</item>
+    </array>
+    <array name="cholamlist">
+        <item>Thirunelveli</item>
+        <item>Madurai</item>
+        <item></item>
+    </array>
+</resources>

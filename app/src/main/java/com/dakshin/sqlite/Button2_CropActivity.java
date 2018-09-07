@@ -1,7 +1,10 @@
 package com.dakshin.sqlite;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class Button2_CropActivity extends AppCompatActivity {
 
@@ -11,7 +14,7 @@ public class Button2_CropActivity extends AppCompatActivity {
         setContentView(R.layout.activity_button2__crop);
             Intent intent = getIntent();
         Bundle bd = intent.getExtras();
-        name = (String) bd.get("District");
+        String name = (String) bd.get("District");
         ListView listview;
         listview=findViewById(R.id.Display_crops);
         final String[] array;
@@ -57,4 +60,4 @@ public class Button2_CropActivity extends AppCompatActivity {
 
     }
     }
-}
+

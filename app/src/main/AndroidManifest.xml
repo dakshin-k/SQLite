@@ -27,7 +27,9 @@
         </activity>
         <activity android:name=".DisplayAllDistricts" />
         <activity android:name=".DisplayAllCrops" />
-        <activity android:name=".Button2_CropActivity"></activity>
+        <activity android:name=".Button2_CropActivity" />
+        <activity android:name=".CropsinDistricts" />
+        <activity android:name=".SoilTypeActivity"></activity>
     </application>
 
 </manifest>

@@ -6,7 +6,6 @@
     <Spinner
         android:id="@+id/select_crop_spinner"
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"/>
     <Spinner
         android:id="@+id/select_district_spinner"
@@ -14,6 +13,6 @@
         android:layout_height="wrap_content"/>
     <Spinner
         android:id="@+id/select_place_spinner"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>
