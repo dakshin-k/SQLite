@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name ="soil">
+        <item>Red</item>
+        <item>Black</item>
+        <item>Coastal</item>
+        <item>Laterite</item>
+    </array>
+</resources>
