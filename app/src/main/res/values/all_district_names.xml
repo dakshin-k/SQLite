@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="list_of_districts">
+        <item>Kancheepuram</item>
+        <item>Kanyakumari</item>
+        <item>Vellore</item>
+        <item>Salem</item>
+        <item>Trichy</item>
+        <item>Madurai</item>
+        <item>Coimbatore</item>
+        <item>Sivagangai</item>
+        <item>Madurai</item>
+        <item>Thanjavur</item>
+        <item>Thirunelveli</item>
+    </array>
+</resources>
