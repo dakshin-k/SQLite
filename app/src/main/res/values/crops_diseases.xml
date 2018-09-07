@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="paddydiseases">
+        <item>Select a disease</item>
+        <item>Sheath Blight</item>
+        <item>Bacterial Blight</item>
+        <item>Rice Blast</item>
+    </array>
+    <array name="maizediseases">
+        <item>Select a disease</item>
+        <item>Corn smut</item>
+        <item>Bacterial Stalk Rot</item>
+        <item>Charcoal Rot</item>
+    </array>
+    <array name="sugarcanediseases">
+        <item>Select a disease</item>
+        <item>Ice Pot Disease</item>
+        <item>Smur Disease</item>
+        <item>Yellow Leaf Disease</item>
+    </array>
+    <array name="cottondiseases">
+        <item>Select a disease</item>
+        <item>Black Root Rot</item>
+        <item>Blight</item>
+        <item>Verticillium Wilt</item>
+    </array>
+    <array name="groundnutdiseases">
+        <item>Select a disease</item>
+        <item>Rust</item>
+        <item>Late Leaf Spot</item>
+        <item>Stem Rot</item>
+    </array>
+    <array name="chilliesdiseases">
+        <item>Select a disease</item>
+        <item>Chilly Wilt</item>
+        <item>Bacterial Soft Rot</item>
+        <item>Grey Mould</item>
+    </array>
+    <array name="bananadiseases">
+        <item>Select a disease</item>
+        <item>Panama Wilt</item>
+        <item>Sigatoka</item>
+        <item>Cigar End Tip Rot</item>
+    </array>
+</resources>

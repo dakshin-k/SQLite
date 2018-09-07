@@ -30,8 +30,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button 4"
-        android:onClick="Button4"/>
+        android:text="Soil Type"
+        android:onClick="soilType"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,8 +40,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button 5"
-        android:onClick="Button5"/>
+        android:text="Fertilizers and disease"
+        android:onClick="fertilizerAndDisease"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

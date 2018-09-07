@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ltd_crop_names">
+        <item>Select a crop</item>
+        <item>Paddy</item>
+        <item>Maize</item>
+        <item>Sugarcane</item>
+        <item>Cotton</item>
+        <item>Groundnut</item>
+        <item>Chillies</item>
+        <item>Banana</item>
+    </array>
+</resources>

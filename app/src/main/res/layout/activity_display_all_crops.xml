@@ -3,10 +3,7 @@
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical">
-    <Spinner
-        android:id="@+id/select_crop_spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+
     <Spinner
         android:id="@+id/select_district_spinner"
         android:layout_width="match_parent"
@@ -15,4 +12,32 @@
         android:id="@+id/select_place_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/select_crop_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/seedrateheading"
+        android:text="Seed Rate:"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/seedratetview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/spacingheading"
+        android:text="Spacing:"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/spacingtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
 </LinearLayout>
