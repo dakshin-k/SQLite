@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Kancheepuram_places">
+        <item>Kancheepuram</item>
+        <item>Sriperumbudur</item>
+        <item>Kundrathur</item>
+        <item>Wallajabad</item>
+        <item>St. Thomas Mount</item>
+        <item>Maduranthakam</item>
+    </array>
+    <array name="Salem_places">
+        <item>Yercaud</item>
+        <item>Edappadi</item>
+        <item>Kolathur</item>
+        <item>Sankaari</item>
+        <item>Tharamangalam</item>
+    </array>
+    <array name="Coimbatore_places">
+        <item>Annamalai</item>
+        <item>Thirupur</item>
+        <item>Pongalur</item>
+        <item>Madathukulam</item>
+    </array>
+    <array name="Tiruchirapalli_places">
+        <item>Lalgudi</item>
+        <item>Andanallur</item>
+        <item>Manikandam</item>
+        <item>Thottiam</item>
+        <item>Pulliambadi</item>
+    </array>
+    <array name="Madurai_places">
+        <item>Thirumangalam</item>
+        <item>Kalikudi</item>
+        <item>Kottampatti</item>
+        <item>Mellore</item>
+        <item>Vadipatti</item>
+    </array>
+    <array name="Thirunelveli_places">
+        <item>Thenkasi</item>
+        <item>Senkottai</item>
+        <item>Mannur</item>
+        <item>Pappakudi</item>
+        <item>Kalakad</item>
+    </array>
+    <array name="Thanjavur_places">
+        <item>Thirubonam</item>
+        <item>Thanjavur</item>
+        <item>Papanasam</item>
+        <item>Buddalore</item>
+        <item>Pattukottai</item>
+        <item>Madhukur</item>
+    </array>
+    <array name="Sivagangai_places">
+        <item>Kallal</item>
+        <item>Sivagangai</item>
+        <item>Sakkottai</item>
+        <item>Devakottai</item>
+        <item>Thirupattur</item>
+    </array>
+    <array name="Kanyakumari_places">
+      <item>Agastheeshwaram</item>
+        <item>Thovallai</item>
+        <item>Melpuram</item>
+        <item>Thukkalai</item>
+        <item>Thiruvattar</item>
+    </array>
+    <array name="Vellore_places">
+        <item>Vellore</item>
+        <item>Arcot</item>
+        <item>Sholingar</item>
+        <item>Katpadi</item>
+        <item>Kandilly</item>
+        <item>Jolarpet</item>
+    </array>
+</resources>

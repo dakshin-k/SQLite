@@ -8,26 +8,28 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class DisplayAllDistricts extends AppCompatActivity {
+public class SoilTypeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_all_districts);
-        ListView listView=findViewById(R.id.districts_list_view);
-        final String[] array=getResources().getStringArray(R.array.list_of_districts);
+        setContentView(R.layout.activity_soil_type);
+        ListView listview;
+        listview=findViewById(R.id.Display_crops);
+        final String[] array = getResources().getStringArray(R.array.soil);;
         ArrayAdapter<String> adapter;
 
         adapter=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,array);
-        listView.setAdapter(adapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listview.setAdapter(adapter);
+        listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String name=array[i];
-                Intent intent = new Intent(DisplayAllDistricts.this,Button2_CropActivity.class);
-                intent.putExtra("District",name);
-                startActivity(intent);
+                Intent intent = new Intent(SoilTypeActivity.this,Soildetails.class);
+                intent.putExtra("Soil_type",name);
+                startActivity(intent );
             }
         });
+
     }
 }

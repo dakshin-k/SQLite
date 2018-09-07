@@ -10,8 +10,8 @@
        <Button
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:text="Button 1"
-           android:onClick="Button1"/>
+           android:text="Display All Crops"
+           android:onClick="displayAllCrops"/>
        <Button
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
@@ -25,8 +25,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button 3"
-        android:onClick="Button3"/>
+        android:text="Crops in Districts"
+        android:onClick="cropsInDistricts"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

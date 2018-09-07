@@ -25,7 +25,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayAllDistricts"></activity>
+        <activity android:name=".DisplayAllDistricts" />
+        <activity android:name=".DisplayAllCrops" />
+        <activity android:name=".Button2_CropActivity" />
+        <activity android:name=".CropsinDistricts" />
+        <activity android:name=".SoilTypeActivity"></activity>
     </application>
 
 </manifest>
