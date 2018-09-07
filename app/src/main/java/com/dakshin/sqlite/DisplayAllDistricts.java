@@ -22,7 +22,10 @@ public class DisplayAllDistricts extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
+                String name=array[i];
+                Intent intent = new Intent(DisplayAllDistricts.this,Button2_CropActivity.java);
+                intent.putExtra("District",name);
+                startActivity(intent);
             }
         });
     }
