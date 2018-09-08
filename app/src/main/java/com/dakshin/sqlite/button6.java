@@ -73,7 +73,6 @@ public class button6 extends AppCompatActivity {
 
                             public void onResponse(String response) {
                                 try {
-                                    Toast.makeText(button6.this, "Response recieved", Toast.LENGTH_SHORT).show();
                                     Log.d("tag","result recieved"+response);
                                     String weatherresult="";
                                         JSONObject res=new JSONObject(response);
@@ -93,7 +92,8 @@ public class button6 extends AppCompatActivity {
                                         Log.d("tag","done/n"+forecast2.toString());
                                         weatherresult+="Temperature: "+forecast2.getDouble("mintemp_c")+" to "+forecast2.getDouble("maxtemp_c")+" Celsius\n";
                                         weatherresult+="Precipitation: "+forecast2.getInt("totalprecip_mm")+" mm\n" ;
-                                        weatherresult+="Average Humidity: "+forecast2.getInt("avghumidity");
+                                        weatherresult+="Average Humidity: "+forecast2.getInt("avghumidity")+"\n";
+                                        weatherresult+="Status: "+forecast2.getJSONObject("condition").getString("text");
                                         weather.setText(weatherresult);
 
                                     }
