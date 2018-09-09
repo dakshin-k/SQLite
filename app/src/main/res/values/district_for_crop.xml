@@ -16,6 +16,57 @@
     <array name="cholamlist">
         <item>Thirunelveli</item>
         <item>Madurai</item>
-        <item></item>
+    </array>
+    <array name="totalpulseslist">
+    	<item>Kancheepuram</item>
+    	<item>Vellore</item>
+    	<item>Kanyakumari</item>
+    	<item>Coimbatore</item>
+    	<item>Tiruchirapalli</item>
+    	<item>Madurai</item>
+    	<item>Thanjavur</item>
+    	<item>Thirunelveli</item>
+    	<item>Salem</item>
+    </array>
+    <array name="cottonlist">
+    	<item>Kancheepuram</item>
+    	<item>Vellore</item>
+    	<item>Thanjavur</item>
+    	<item>Salem</item>
+    	<item>Thirunelveli</item>
+    	<item>Tiruchirapalli</item>
+    </array>
+    <array name="sugarcanelist">
+		<item>Kancheepuram</item>
+    	<item>Thanjavur</item>
+    	<item>Thirunelveli</item>
+    	<item>Sivagangai</item>
+    	<item>Vellore</item>
+    	<item>Coimbatore</item>
+    	<item>Tiruchirapalli</item>
+    	<item>Madurai</item>
+    </array>
+    <array name="groundnutlist">
+    	<item>Kancheepuram</item>
+    	<item>Tiruchirapalli</item>
+    	<item>Vellore</item>
+    	<item>Salem</item>
+    	<item>Sivagangai</item>
+    	<item>Coimbatore</item>
+    	<item>Thanjavur</item>
+    	<item>Madurai</item>
+    	<item>Thirunelveli</item>
+    </array>
+    <array name="chillieslist">
+    	<item>Sivagangai</item>
+    </array>
+    <array name="bananalist">
+    	<item>Vellore</item>
+    	<item>Coimbatore</item>
+    	<item>Sivagangai</item>
+    	<item>Kancheepuram</item>
+    	<item>Tiruchirapalli</item>
+    	<item>Madurai</item>
+    	<item>Thirunelveli</item>
     </array>
 </resources>

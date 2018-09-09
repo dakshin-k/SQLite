@@ -7,4 +7,9 @@
         android:id="@+id/button3_select_crop_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:id="@+id/crop_place_listview"/>
 </LinearLayout>

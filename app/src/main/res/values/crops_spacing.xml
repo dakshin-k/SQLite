@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="paddysrate">20 kg/ha</string>
+    <string name="paddyspcing">20 x 20 cm</string>
+    <string name="chilliesrate">1 kg/ha</string>
+    <string name="chilliespacing">60 x 45 cm</string>
+    <string name="bananasrate">50 kg/ha</string>
+    <string name="bananaspacing">2 x 2 cm</string>
+    <string name="groundnutsrate">60 - 80 kg/ha</string>
+    <string name="groundnutspacing">45 - 60 cm</string>
+    <string name="maizesrate">20 kg/ha</string>
+    <string name="maizespacing">75 x 25 cm</string>
+    <string name="sugarcanesrate">60 - 80 kg/ha</string>
+    <string name="sugarcanespacing">90 cm (row-wise)</string>
+    <string name="cottonsrate">25 kg/ha</string>
+    <string name="cottonspacing">25 x 75 cm</string>
+    <string name="cholamsrate">27 - 50 kg/ha</string>
+    <string name="cholamspacing">60 x 15 cm</string>
+    <string name="totalpulsesrate">12 - 15 kg/ha</string>
+    <string name="totalpulsespacing">30 - 45 kg/ha</string>
+</resources>

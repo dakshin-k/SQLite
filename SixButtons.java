@@ -29,12 +29,4 @@ public class SixButtons extends AppCompatActivity {
         Intent intent = new Intent(SixButtons.this,button6.class);
         startActivity(intent);
     }
-    public void soilType(View v) {
-        Intent intent=new Intent(SixButtons.this,SoilTypeActivity.class);
-        startActivity(intent);
-    }
-    public void fertilizerAndDisease(View v) {
-        Intent intent=new Intent(SixButtons.this,FertilizerDisease.class);
-        startActivity(intent);
-    }
 }
