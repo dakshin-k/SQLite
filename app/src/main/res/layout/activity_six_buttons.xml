@@ -13,13 +13,13 @@
            android:textSize="17sp"
            android:layout_height="120dp"
            android:text="Seed Rate"
-           android:backgroundTint="#be935b"
+           android:backgroundTint="#5b8ebe"
            android:onClick="displayAllCrops"/>
        <Button
            android:textSize="17sp"
            android:layout_width="0dp"
            android:layout_weight="1"
-           android:backgroundTint="#70be5b"
+           android:backgroundTint="#814130"
            android:layout_height="120dp"
            android:text="Display Crops"
            android:onClick="cropsInDistricts"/>
